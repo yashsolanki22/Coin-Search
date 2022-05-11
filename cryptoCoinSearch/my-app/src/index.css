@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* coin search box */
+
+.coin--search--div{
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.coin--input--box {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+.coin--details {
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: .6rem;
+  border-bottom: 2px solid #ccc;
+}
+
+.coin--details div {
+  display: flex;
+  align-items: center;
+}
+
+.coin--image {
+  width: 30px;
+}
